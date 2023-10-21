@@ -1,0 +1,64 @@
+*{margin: 0; padding: 0%;}
+
+.imagMainScreen {
+    max-width: 350px;
+    max-height: 350px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.btn-custom {
+background-color: #17A648 !important;
+color: #fff !important;
+}
+
+.divMain {
+    margin-top: 0px;
+}
+
+body {
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.firstComponent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.thirdComponent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.fourthComponent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+  
+}
+ 
+.upcycleTitle {
+    color: #17A648;
+}
+
+@media screen and (max-width: 600px) {
+   .secondComponent h1 {
+    font-size: 25px;
+    text-align: center;
+    
+    
+   }
+    /* Estilos para telas menores que 600px de largura */
+  }
+
+
+
